@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: delivery-cost-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python delivery_api.py
